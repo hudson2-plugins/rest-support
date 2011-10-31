@@ -120,19 +120,6 @@ THE SOFTWARE.
 
       <dependency>
         <groupId>org.jvnet.hudson.main</groupId>
-        <artifactId>hudson-rest-client</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.jvnet.hudson.main</groupId>
-        <artifactId>hudson-rest-client</artifactId>
-        <version>${project.version}</version>
-        <classifier>tests</classifier>
-      </dependency>
-
-      <dependency>
-        <groupId>org.jvnet.hudson.main</groupId>
         <artifactId>hudson-rest-api</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -197,7 +184,6 @@ THE SOFTWARE.
   <modules>
     <module>hudson-rest-common</module>
     <module>hudson-rest-model</module>
-    <module>hudson-rest-client</module>
     <module>hudson-rest-api</module>
     <module>hudson-rest-server</module>
     <module>rest-plugin</module>
